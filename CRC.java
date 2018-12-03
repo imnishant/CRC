@@ -71,16 +71,13 @@ public class CRC {
 		for (int i = 0; i < m; i++)
 			g[i] = sc.nextInt();
 		
-	
-		
 		for (int i = n; i < m+n-1; i++)
 			d[i] = 0;
 		
 		for (int i = 0; i < m+n-1; i++) 
 			r[i] = d[i];
 		
-		
-		System.out.println("Augmented Codeword");
+		System.out.println("Augmented dataword");
 		for (int i = 0; i < m+n-1; i++)
 			System.out.print(d[i] + " ");
 		System.out.println();
@@ -95,7 +92,6 @@ public class CRC {
 		int cn = sc.nextInt();*/
 		
 		int c[] = new int[n+m];
-		
 		
 		System.out.println("Enter codeword");
 		for (int i = 0; i < n+m-1; i++)
